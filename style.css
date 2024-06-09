@@ -173,7 +173,7 @@ header {
 
 #skills h1 {
     font-size: 32px;
-    color: #1A2E38;
+    color: #444444;
     font-family: 'Bodoni Moda', serif;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -192,12 +192,12 @@ header {
     padding: 30px;
     max-width: 1200px;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 #locations h2 {
-    font-size: 32px;
-    color: #1A2E38;
+    font-size: 20px;
+    color: #444444;
     font-family: 'Bodoni Moda', serif;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -206,6 +206,9 @@ header {
 #locations ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    text-align: left
+    
 }
 
 #locations li {
@@ -214,13 +217,15 @@ header {
 
 #locations a {
     color: #03B1F4;
-    text-decoration: none;
-    font-weight: bold;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 15px;
 }
 
 #locations a:hover {
     text-decoration: underline;
 }
+
 
 /* Highlighted Text */
 .highlight {

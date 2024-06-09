@@ -305,7 +305,7 @@ header {
 #findlap a {
     color: #03B1F4;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 #findlap a:hover {
@@ -320,7 +320,7 @@ header {
 
 #lessons a {
     color: #03B1F4;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 #lessons a:hover {

@@ -1,0 +1,312 @@
+/* style Header area */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    min-height: 80px;
+    background-color: #1A2E38;
+}
+
+
+/* style Header navigation */
+
+.logo {
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.nav {
+    background-color: #1A2E38;
+    height: 50%;
+    width:100%; 
+    }
+
+.nav ul {
+    position: absolute;
+    left:20vw;
+    top:0;
+    line-height: 60px;
+    }   
+
+.nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 16px;
+}
+
+.nav li a:visited {
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+.nav li a:active {
+    text-decoration: none;
+    color: #03B1F4;
+}
+
+ /* style Header sign-in button */
+
+.button a {
+    text-decoration: none;
+    color: #03B1F4;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.button {
+    position: absolute;
+    left:85vw;
+    top:0;
+    line-height: 20px;
+    background-color:#ffffff;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    border-radius: 20px;
+    padding:10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* Hero Section */
+#hero {
+    background: url('images/which-lesson-is-best.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0; 
+}
+
+#hero h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: 'Bodoni Moda', serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0; /* Ensure no margin */
+}
+
+/* Lessons Section */
+#lessons {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#lessons h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #1A2E38;
+    font-family: 'Bodoni Moda', serif;
+    margin-bottom: 20px;
+    margin-top: 0; /* Ensure no margin */
+}
+
+#lessons h2 {
+    font-size: 32px;
+    color: #1A2E38;
+    font-family: 'Bodoni Moda', serif;
+    margin-top: 20px;
+}
+
+#lessons p {
+    color: #757576;
+    margin-bottom: 6px;
+    line-height: 1.5;
+    font-weight: lighter;
+    align-items: center;
+}
+/* Highlighted Text */
+.highlight {
+    font-weight: bold;
+    color: #03B1F4; /* Use the specific color you want for highlighting */
+}
+
+#lessons a {
+    color: #03B1F4;
+    font-weight: bold;
+}
+
+#lessons a:hover {
+    text-decoration: underline;
+}
+
+/* style footer area */
+.footer_image {
+    background: url(images/footer-bg.jpeg) no-repeat;
+    background-size: cover;
+}
+
+
+.footer_logo {
+    margin-top: 0px;
+    margin-left: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*style footer social media icons */
+
+footer .social .fa {
+    padding: 15px ;
+    font-size: 14px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+footer .social .fa:hover {
+    opacity: 0.7;
+}
+
+footer .social .fa-linkedin {
+    background: #125688;
+    color: white;
+}
+
+footer .social .fa-facebook {
+    background: #1e90ff;
+    color: white;
+}
+
+footer .social .fa-twitter {
+    background: #00bfff;
+    color: white;
+}
+
+footer .social .fa-instagram {
+    background: #696969;
+    color: white;
+}
+
+footer .social .fa-yelp {
+    background: #b22222;
+    color: white;
+}
+
+footer .social .fa-youtube {
+    background: #b22222;
+    color: white;
+}
+
+footer .social {
+    margin-left: 1400px;
+    padding: 0px 30px;
+    padding-bottom: 40px;
+}
+
+/*style footer navigation*/
+
+.footer_nav {
+    height: 30%;
+    width:100%; 
+    font-weight: 600;
+}
+
+.footer_nav ul {
+    position: absolute;
+    line-height:30px;
+    padding-left: 5%;
+}
+ 
+
+.footer_nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    color:#444444;
+    text-align: center;
+}
+
+.footer_nav li a {
+    text-decoration: underline;
+    color:#444444;
+    font-size: 14px;
+}
+
+.footer_nav li a:active {
+    text-decoration: underline;
+    color: #03B1F4;
+}
+
+/*style footer location list*/
+
+.footer_location {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 50px;
+    font-size: 14px;
+}
+
+.footer_location .copy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer_location li a {
+    text-decoration: underline;
+    color:#757576;
+    font-size: 14px;
+}
+
+/*style footer sponsors*/
+
+#footer_sponsor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#footer_sponsors .image{
+    display: inline-block;
+    padding:20px;
+
+}
+
+#footer_sponsors .disclaimer {
+    display: inline-block;
+    padding-bottom: 45px;
+    padding-left: 500px;
+    margin-bottom: 30px;
+    margin-left: 1100px;
+    font-size: 14px;
+    text-align: center;
+    color: #757576;
+}
+
+/*style footer horizontal line */
+
+hr {
+    border: 0.3px solid #cccccc;
+}
+
